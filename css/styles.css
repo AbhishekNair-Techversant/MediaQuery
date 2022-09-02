@@ -22,7 +22,7 @@
     align-items: center;
 }
 
-.headerLeft span {
+.headerLeft .icons {
     padding: 10px;
     cursor: pointer;
 }
@@ -35,9 +35,8 @@
     padding: 10px;
     border-radius: 5px;
 }
-
+.headerLeft .icons,
 .icons {
-    color: gray;
 	width: 26px;
 }
 
@@ -55,7 +54,7 @@
     padding-right: 20px;
 }
 
-.headerRight span {
+.headerRight .icons {
     padding: 10px;
     cursor: pointer;
 }
@@ -85,7 +84,7 @@
     box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
 }
 
-.sidebarCompose span {
+.sidebarCompose .icons {
     margin-right: 5px;
 }
 
@@ -234,9 +233,7 @@ input {
     align-items: center;
     font-size: 13px;
 }
-.icons{
-	width: 10px;
-}
+
 .emailRowMessage h4 {
     width: 400px;
     white-space: nowrap;
@@ -268,11 +265,10 @@ input {
         width: 90px;
     }
 	.icons {
-    		color: gray;
-		width: 26px;
+		width: 15px;
 	}
 
-    .headerLeft span {
+    .headerLeft .icons {
         padding: 10px;
     }
 
@@ -287,7 +283,7 @@ input {
         padding-right: 20px;
     }
 
-    .headerRight span {
+    .headerRight .icons {
         padding: 10px;
     }
     .icons {
@@ -300,7 +296,7 @@ input {
         padding: 15px;
         border-radius: 30px;
     }
-    .sidebarCompose span {
+    .sidebarCompose .icons {
         margin-right: 5px;
     }
     .sidebarOption {
@@ -352,11 +348,11 @@ input {
         width: 60px;
     }
 	.icons {
-   	 	color: gray;
-		width: 26px;
+		width: 10px;
+		padding: 2px;
 	}
-    .headerLeft span {
-        padding: 3px;
+    .headerLeft .icons {
+        padding: 2px;
     }
 
     .headerMiddle {
@@ -373,7 +369,7 @@ input {
         padding-right: 1px;
     }
 
-    .headerRight span {
+    .headerRight .icons {
         padding: 2px;
     }
     .sidebarCompose {
@@ -383,7 +379,7 @@ input {
         padding: 2px;
         font-size: 8px;
     }
-    .sidebarCompose span {
+    .sidebarCompose .icons {
         margin-right: 1px;
     }
     .sidebarOption {
@@ -410,6 +406,7 @@ input {
     .emailRowOptions .icons,
     input {
         margin: 0px;
+		padding: 2px;
         font-size: 8px;
     }
     input {
@@ -435,10 +432,9 @@ input {
         width: 43px;
     }
 	.icons {
-    		color: gray;
-		width: 26px;
+		width: 7px;
 	}
-    .headerLeft span {
+    .headerLeft .icons {
         padding: 3px;
     }
 
@@ -456,7 +452,7 @@ input {
         padding-right: 1px;
     }
 
-    .headerRight span {
+    .headerRight .icons {
         padding: 2px;
     }
     .sidebarCompose {
@@ -466,7 +462,7 @@ input {
         padding: 2px;
         font-size: 7px;
     }
-    .sidebarCompose span {
+    .sidebarCompose .icons {
         margin-right: 1px;
     }
     .sidebarOption {
